@@ -45,3 +45,11 @@ This project brings these features into a **single integrated platform** for bet
 ```bash
 git clone https://github.com/your-username/aged-care-management-system.git
 cd aged-care-management-system
+
+### 2. Install dependencies
+```bash
+npm install
+
+### 3. Run the development server
+```bash
+npm run dev
