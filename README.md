@@ -41,15 +41,17 @@ This project brings these features into a **single integrated platform** for bet
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
-```bash
+1. Clone the repo and enter the project folder
+
 git clone https://github.com/your-username/aged-care-management-system.git
 cd aged-care-management-system
 
-### 2. Install dependencies
-```bash
+
+2. Install dependencies
+
 npm install
 
-### 3. Run the development server
-```bash
+
+3. Run the development server
+
 npm run dev
