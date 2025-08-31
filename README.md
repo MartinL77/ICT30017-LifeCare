@@ -1,69 +1,57 @@
-# React + TypeScript + Vite
+# 🏥 Aged Care Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Course:** ICT30017 – Project Options  
+**Project Type:** Software Engineering Project  
 
-Currently, two official plugins are available:
+This project is a **management system for aged care service providers**, built with **TypeScript, React, Vite, and Chakra UI**.  
+It aims to improve the quality of life for elderly people while streamlining tasks for carers and administrative staff.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📖 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Due to cognitive decline with age, many elderly people need help and support for their daily activities. Some can manage with **in-home care**, while others require **residential care** facilities with 24/7 support.  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Currently, aged care services often rely on separate, disconnected software for tasks like billing, scheduling, or inventory.  
+This project brings these features into a **single integrated platform** for better efficiency.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Member Management** – records elderly residents' personal details, care plans, medications, and family contacts.  
+- **Staff Management** – staff profiles with roles, qualifications, employment type, and payroll details.  
+- **Service Management** – catalog of services offered with duration, assigned staff, and progress reports.  
+- **Facility Management** – rooms, reservations, utilities, and other facility-related services.  
+- **Scheduling** – roster management and service assignments for different types of staff.  
+- **Inventory Management** – daily necessities, medication, and commodities tracking for facilities.  
+- **Family Interaction Portal** – enables communication between families and residents.  
+- **Billing Module** – generates bills for services provided.  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
+
+- [Vite](https://vitejs.dev/) – fast build tool and dev server  
+- [React](https://react.dev/) – component-based UI  
+- [TypeScript](https://www.typescriptlang.org/) – static typing for JavaScript  
+- [Chakra UI](https://chakra-ui.com/) – accessible component library and styling  
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo and enter the project folder
+
+git clone https://github.com/your-username/aged-care-management-system.git
+cd aged-care-management-system
+
+
+2. Install dependencies
+
+npm install
+
+
+3. Run the development server
+
+npm run dev
