@@ -31,12 +31,6 @@ const Grid = styled.form`
   gap: 0.8rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 `;
-const Row = styled.div`
-  display: flex;
-  gap: 0.6rem;
-  align-items: center;
-  flex-wrap: wrap;
-`;
 const Input = styled.input`
   padding: 0.6rem 0.8rem;
   border: 1px solid var(--border);
